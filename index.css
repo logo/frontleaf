@@ -1,21 +1,2 @@
-
-/**
- * Frontleaf logo.
- */
-
-.logo[data-logo="Frontleaf"] {
-  width: 4.046474880235843em;
-}
-
-.logo[data-logo="Frontleaf"] > * {
-  background-image: url(images/logo.svg);
-  margin: .12em 0;
-}
-
-.logo[data-logo="Frontleaf"][data-color="black"] > * {
-  background-image: url(images/logo-black.svg);
-}
-
-.logo[data-logo="Frontleaf"][data-color="white"] > * {
-  background-image: url(images/logo-white.svg);
-}
+@import 'logo/logo';
+@import './style';
